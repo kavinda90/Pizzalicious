@@ -1,0 +1,83 @@
+:root {
+    --main-bg-color: #b80818;
+    --secondary-color: #ffb200;
+}
+
+body {
+    font-family: 'Roboto', serif, Times;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--main-bg-color);
+    color: #fff;
+    z-index: 99999;
+}
+
+.desktop-nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    justify-content: space-between;
+    max-height: 100px;
+}
+
+.desktop-nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+}
+
+.main-logo {
+    width: 20%;
+}
+
+.order-in-button a {
+    display: flex;
+    align-items: center;
+}
+
+.order-in-button img {
+    max-width: 50px;
+    padding-right: 5px;
+}
+
+.order-in-button div {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-in-button span {
+    text-transform: uppercase;
+}
+
+.bg-overlay {
+    background-image: url(../img/bg-pattern.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* .order-now-button {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+} */
